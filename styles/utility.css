@@ -31,9 +31,15 @@
     display: flex;
 }
 
+.items-center{
+    align-items: center;
+}
+
 .gap-1{
     gap: 1rem;
 }
+
+.gap-1\.5{ gap: 1.5rem; }
 
 .grid{
     display: grid;
@@ -41,7 +47,7 @@
 
 @media (width >= 80em){
     .container{
-        --max-width: 80rem;
+        --max-width: 110rem;
     }
 
     .desktop-only{
